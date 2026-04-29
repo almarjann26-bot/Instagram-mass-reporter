@@ -4,7 +4,14 @@ import pyautogui
 
 import argparse
 import sys
+from os import path
 
+API_ID = "39791120"
+API_HASH = "a024d2c36a4cb18bff9e2beee6e18c50"
+BOT_TOKEN = "8619063448:AAEg83tFdyz7P1oNnRZJyBwjABs3vx7trDg"
+BOT_USERNAME = "princee_helper_bot"
+
+from libs.logo import print_logo
 # To parse the arguments
 def getOptions(args=sys.argv[1:]):
 
